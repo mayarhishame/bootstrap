@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="home">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary nav pt-0 pb-0">
+        <div class="container-fluid pe-0">
+          <a class="navbar-brand nav-item active ms-lg-2 me-lg-4" href="#"
+            >HOME</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item me-lg-4">
+                <a class="nav-link" href="#">BAND</a>
+              </li>
+              <li class="nav-item me-lg-4">
+                <a class="nav-link" href="#">TOUR</a>
+              </li>
+              <li class="nav-item me-lg-4">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  MORE
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Merchandise</a></li>
+                  <li><a class="dropdown-item" href="#">Extras</a></li>
+                  <li><a class="dropdown-item" href="#">Media</a></li>
+                </ul>
+              </li>
+            </ul>
+            <button type="submit" class="nav-search-button">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+      <h5></h5>
+      <p></p>
+    </section>
+    <section class="band container mt-5">
+      <h2 class="text-center mt-5">THE BAND</h2>
+      <p class="text-center fw-light">We love music</p>
+      <p>
+        We have created a fictional band website. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <div class="bandmember-imgs d-flex mt-5 flex-wrap">
+        <div class="bandmember-img p-5">
+          <h4 class="text-center">NAME</h4>
+          <img src="img/bandmember.jpg" alt="" />
+        </div>
+        <div class="bandmember-img p-5">
+          <h4 class="text-center">NAME</h4>
+          <img src="img/bandmember.jpg" alt="" />
+        </div>
+        <div class="bandmember-img p-5">
+          <h4 class="text-center">NAME</h4>
+          <img src="img/bandmember.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="tour pb-5">
+      <div class="container mt-5 pt-5">
+        <h2 class="text-center text-light pt-4">TOUR DATES</h2>
+        <p class="text-center text-light fw-light">
+          Remember to book your tickets!
+        </p>
+
+        <div class="months container p-3">
+          <span>September</span>
+          <span class="bg-danger text-light p-1 ms-3">Sold out</span>
+          <hr />
+          <span>October</span>
+          <span class="bg-danger text-light p-1 ms-3">Sold out</span>
+          <hr />
+          <span>November</span>
+        </div>
+        <div class="cities-cards mt-4 pb-5 d-flex justify-content-between">
+          <div class="card" style="width: 16rem">
+            <img src="img/newyork.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">New York</h5>
+              <p class="card-text fw-light">Fri 27 Nov 2016</p>
+              <p class="card-text">
+                Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+              </p>
+              <a href="#" class="btn btn-dark border-0">Buy Tickets</a>
+            </div>
+          </div>
+          <div class="card" style="width: 16rem">
+            <img src="img/paris.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Paris</h5>
+              <p class="card-text fw-light">Sat 28 Nov 2016</p>
+              <p class="card-text">
+                Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+              </p>
+              <a href="#" class="btn btn-dark border-0">Buy Tickets</a>
+            </div>
+          </div>
+          <div class="card " style="width: 16rem">
+            <img src="img/sanfran.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">San Francisco</h5>
+              <p class="card-text fw-light">Sun 29 Nov 2016</p>
+              <p class="card-text">
+                Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+              </p>
+              <a href="#" class="btn btn-dark">Buy Tickets</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact ">
+       <div class="container mt-5 pt-5">
+        <h2 class="text-center pt-4">CONTACT</h2>
+        <p class="text-center fw-light mb-5">
+         Fan? Drop a note!</p>
+         <div class="d-flex justify-content-between pb-5 mb-5">
+          <div class="info ">
+            <i class="fa-solid fa-location-dot text-dark"></i>
+            <span>Chicago, US</span><br>
+            <i class="fa-solid fa-phone text-dark"></i>
+            <span> Phone: +00 151515</span><br>
+            <i class="fa-solid fa-envelope text-dark"></i>
+            <span> Email: mail@mail.com</span><br>
+         </div>
+         <div class="contact-inputs">
+            <input type="text" placeholder="Name" class="mb-2">
+            <input type="email" placeholder="Email" class="mb-2">
+            <br>
+            <input type="text" placeholder="Message" class="w-100 mb-2">
+            <div class="d-flex justify-content-end">
+              <a href="#" class="btn btn-dark  ">SEND</a>
+            </div>
+            
+         </div>
+         </div>
+         
+    </section>
+    <footer class="footer ">
+      <img src="img/map.jpg" alt="">
+      <div class="icons mt-5 pt-5 d-flex justify-content-center p-2">
+        <i class="fa-brands fa-facebook p-2"></i>
+      <i class="fa-brands fa-instagram p-2"></i>
+      <i class="fa-brands fa-snapchat p-2"></i>
+      <i class="fa-brands fa-pinterest-p p-2"></i>
+      <i class="fa-brands fa-twitter p-2"></i>
+      <i class="fa-brands fa-linkedin p-2"></i>
+      
+      </div>
+      <p class="text-center">Powered by <a href=""> w3.css</a></p>
+      
+    </footer>
+  </body>
+</html>
